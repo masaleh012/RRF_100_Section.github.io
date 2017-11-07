@@ -1,0 +1,104 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section-title h2 {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.section-title h2::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    height: 5px;
+    width: 60px;
+    background: #FFDC78;
+    bottom: 0;
+    margin-left: -30px;
+}
+
+.section-title h2::after {
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 5px;
+    content: "";
+    bottom: 0;
+    background: #FF7777;
+    margin-left: -10px;
+}
+
+.single-icon {
+    text-align: center;
+    display: block;
+    color: #333;
+    margin-bottom: 45px;
+}
+
+.single-icon h3 {
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+.single-icon-container {
+    display: table;
+    height: 80px;
+    width: 100%;
+    color: #FF7777;
+    font-size: 67px;
+}
+
+.single-icon-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
