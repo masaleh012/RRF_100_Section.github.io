@@ -1,0 +1,93 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color:  #333;
+}
+body {
+    color: #9e9e9e;
+}
+a:hover { text-decoration: none }
+.video-area-bg{
+    background-image: url("../img/tulip.jpg");
+    background-color: #dddddd;
+    background-position: center;
+    background-size: cover;
+}
+.check-icon li::before{
+    font-family: fontAwesome;
+    content: "\f00c";
+}
+.video-area {
+    position: relative;
+    margin-top: 70px;
+    padding: 125px;
+}
+
+.video-area-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    box-shadow: 0 0 20px #999;
+}
+.video-play-btn {
+    top: 50%;
+    right: -50px;
+    height:  100px;
+    width:  100px;
+    color: #fff;
+    background: #1FA463;
+    position:  absolute;
+    text-align:  center;
+    line-height: 101px;
+    font-size: 40px;
+    border-radius:  50%;
+    padding-left: 7px;
+    margin-top: -50px;
+    display: inline-blocks;
+}
+
+ul.check-icon {
+    margin: 0;
+    padding:  0;
+    list-style:  none;
+    font-size:  16px;
+    color:  #666;
+}
+
+ul.check-icon li {
+    padding-left:  30px;
+    padding-bottom:  10px;
+    position:  relative;
+}
+
+ul.check-icon li::before {
+    position:  absolute;
+    left:  0;
+    top: 2px;
+    color:  #1FA463;
+}
