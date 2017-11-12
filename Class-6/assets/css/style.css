@@ -1,0 +1,159 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    color: #807575;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    color: #333;
+}
+
+.section-title span {
+    color: #108D44;
+}
+
+.section-title p {
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.price-box {
+    border: 2px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+h3.pricing-title {
+	margin-top: 20px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.pricing-icon {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.pricing-icon img {
+    max-width: 95px;
+}
+
+.price-lists ul {
+    margin: 0;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    line-height: 25px;
+}
+
+.price-lists ul li:before {
+    font-family: fontAwesome;
+    content: "\f00c";
+    color: #108D44;
+    padding-right: 10px;
+}
+
+.price-lists ul li.disabled:before {
+    content: "\f00d";
+    color: #eb3036;
+}
+
+h3.pricing-type {
+    margin-bottom: 24px;
+    color: #333;
+}
+
+a.bordered-btn {
+    display: inline-block;
+    border: 1px solid #108D44;
+    border-radius: 87px;
+    padding: 10px 30px;
+    color: #333;
+}
+
+.price-box:hover {
+    border: 2px solid #108D44;
+    box-shadow: 0 0 50px #ccc;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.price-box:hover .pricing-icon {
+    color: #108D44;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.price-box:hover .pricing-icon img {
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+a.bordered-btn:hover {
+    background: #108D44;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    color: #fff;
+}
+
+.price-lists ul li {
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.price-lists ul li:hover {
+    padding-left: 5px;
+}
