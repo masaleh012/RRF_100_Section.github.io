@@ -1,0 +1,120 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title h2::before {
+    bottom: 0px;
+    background: #ECECEC;
+    left: 0%;
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 5px;
+}
+
+.section-title h2::after {
+    position: absolute;
+    content: "";
+    width: 35px;
+    left: 0%;
+    bottom: 0;
+    height: 5px;
+    background: #14ADF3;
+}
+
+.owl-carousel .owl-item img {
+    max-width: 160px;
+    border-radius: 50%;
+}
+
+.staff-meta {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #cccccc;
+}
+
+.staff-meta h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.staff-list .owl-nav div {
+    display: inline-block;
+    background: #F3F3E3;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    transition: .3s ease;
+}
+
+.staff-list .owl-nav div:hover {
+    color: #fff;
+    background: #14ADF3;
+}
+
+.staff-list .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
