@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Code-Bold';
+    src: url('../fonts/Code-Bold.eot');
+    src: url('../fonts/Code-Bold.woff2') format('woff2'), url('../fonts/Code-Bold.woff') format('woff'), url('../fonts/Code-Bold.ttf') format('truetype'), url('../fonts/Code-Bold.svg#Code-Bold') format('svg'), url('../fonts/Code-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Code-Light';
+    src: url('../fonts/Code-Light.eot');
+    src: url('../fonts/Code-Light.woff2') format('woff2'), url('../fonts/Code-Light.woff') format('woff'), url('../fonts/Code-Light.ttf') format('truetype'), url('../fonts/Code-Light.svg#Code-Light') format('svg'), url('../fonts/Code-Light.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Code-Bold', sans-serif;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.homepage-slider-wrapper {
+    background-image: url(../img/slider-bg.jpg)
+}
+
+.product-bg-1 {
+    background-image: url(../img/lady-1.png)
+}
+
+.product-bg-2 {
+    background-image: url(../img/lady-2.png)
+}
+
+.product-bg-3 {
+    background-image: url(../img/lady-3.png)
+}
+
+.product-bg-4 {
+    background-image: url(../img/lady-4.png)
+}
+
+.product-bg-5 {
+    background-image: url(../img/lady-5.png)
+}
+
+.product-bg-6 {
+    background-image: url(../img/lady-6.png)
+}
+
+.product-bg-7 {
+    background-image: url(../img/lady-7.png)
+}
+
+.product-bg-8 {
+    background-image: url(../img/lady-8.png)
+}
+
+.product-bg-9 {
+    background-image: url(../img/lady-9.png)
+}
+
+.product-bg-10 {
+    background-image: url(../img/lady-10.png)
+}
+
+.header-top-area a {
+    color: #5b3f61;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 15px;
+    display: inline-block;
+}
+
+.header-top-area ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header-top-area ul li {
+    display: inline-block;
+}
+
+.search-trigger i.fa {
+    padding-left: 10px;
+}
+
+.search-trigger img {
+    padding-left: 15px;
+}
+
+.header-top-area a.menu-trigger {
+    display: none;
+}
+
+.homepage-slider-wrapper {
+    background-color: #E9D4CF;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.single-slider-item {
+    position: relative;
+}
+
+.single-slider-item img {
+    position: absolute;
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    bottom: 0;
+}
+
+.slide-text-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.homepage-slider-wrapper div {
+    height: 100%;
+}
+
+.slide-text-tablecell {
+    display: table-cell;
+    padding-left: 15%;
+    vertical-align: middle;
+    font-size: 120px;
+    color: #e84f88;
+    line-height: 100px;
+    font-family: 'Code-Light', sans-serif;
+}
+
+.slide-text-table strong {
+    font-family: 'Code-Bold';
+}
+
+.slide-text-tablecell p.light-color-text {
+    color: #6db0c6;
+}
+
+.header-top-area {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+ul.big-menu {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul.big-menu li {
+    width: 30%;
+    float: left;
+    font-size: 50px;
+    font-family: 'Code-Light';
+    background-color: #ECF3E8;
+    transition: .3s;
+}
+
+ul.big-menu li a {
+    color: #5b3f61;
+    text-align: right;
+    display: block;
+    padding: 30px;
+    padding-top: 170px;
+}
+
+ul.big-menu li:nth-child(2) a {
+    color: #e84f88;
+    font-family: 'Code-Bold';
+    background-color: #F1E5E5;
+}
+
+ul.big-menu li:nth-child(3) {
+    background-color: #F6F3E6;
+}
+
+ul.big-menu li:nth-child(4) {
+    background-color: #ECF4F5;
+}
+
+ul.big-menu li:nth-child(2),
+ul.big-menu li:nth-child(3) {
+    width: 20%;
+}
+
+ul.big-menu li:hover {
+    opacity: .8;
+}
