@@ -1,0 +1,62 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        padding-left: 50px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul li {
+        padding-left: 75px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        padding: 30px 0;
+        text-align: center;
+    }
+    .main-menu ul, .footer-area{
+        text-align: center;
+    }
+    .main-menu ul li {
+        padding: 10px;
+    }
+    .main-menu ul li a {
+        padding: 20px 0;
+        font-size: 11px
+    }
+    .big-blog-box .feature-content {
+        margin-bottom: 30px;
+    }
+    .single-blog-item {
+        margin-bottom: 50px;
+    }
+    .footer-area ul li{
+        padding: 10px;
+    }
+    .social-links{
+        text-align: center;
+        right: 0;
+        left: 20px;
+    }
+    .load-more-btn-wrapper.text-center {
+        margin-top: 0;
+    }
+    .load-more-btn{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
