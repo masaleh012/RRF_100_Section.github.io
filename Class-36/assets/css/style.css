@@ -1,0 +1,202 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    background: #F5F6FB;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.promo-boxes-wrap {
+    margin-left: -15px;
+    overflow: hidden;
+}
+
+.single-promo-box {
+    height: 350px;
+    width: 50%;
+    float: left;
+    display: table;
+    text-align: center;
+    background: #fff;
+    padding: 20px 0;
+}
+
+.promo-box-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single-promo-box:nth-child(2) {
+    background-color: #DA879B;
+}
+
+.single-promo-box:nth-child(3) {
+    background: #7BBAD0;
+}
+
+i.promo-icon:before {
+    font-size: 70px;
+}
+
+a.box-btn {
+    display: inline-block;
+    background: #7BBAD0;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.single-promo-box h2 {
+    position: relative;
+    z-index: 1;
+    font-size: 28px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.single-promo-box h2:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 50%;
+    margin-left: -25px;
+    background: #DA879B;
+    bottom: 0;
+}
+
+.single-promo-box .box-btn {
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.promo-box-tablecell {
+    padding-top: 45px;
+    transition: .3s;
+}
+
+.single-promo-box:hover .promo-box-tablecell {
+    padding-top: 0;
+}
+
+.single-promo-box:hover .box-btn {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-promo-box:nth-child(2),
+.single-promo-box:nth-child(3) {
+    color: #fff;
+}
+
+.single-promo-box:nth-child(2) h2:after,
+.single-promo-box:nth-child(3) h2:after {
+    background: #fff;
+}
+
+.single-promo-box:nth-child(2) .box-btn,
+.single-promo-box:nth-child(3) .box-btn {
+    background: #fff;
+    color: #333;
+}
+
+.single-promo-box:nth-child(4) h2:after {
+    background: #7BBAD0;
+}
+
+.single-promo-box:nth-child(4) .promo-icon {
+    color: #7BBAD0;
+}
+
+.single-promo-box:nth-child(1) .promo-icon {
+    color: #DA879B;
+}
+
+.single-promo-box:nth-child(1) .box-btn {
+    background: #DA879B;
+}
+
+.right-side-content {
+    line-height: 1.6;
+    padding: 110px 50px;
+}
+
+.content-title h3 {
+    text-transform: capitalize;
+    font-style: italic;
+    margin-bottom: 5px;
+    color: #7BBAD0;
+    font-weight: normal;
+}
+
+.content-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.right-side-content p {
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.right-side-content h4 {
+    margin-bottom: 40px;
+    line-height: 1.6;
+    font-size: 19px;
+}
+
+.right-side-content .box-btn {
+    font-weight: 700;
+}
+
+.right-side-content .bordered-btn {
+    border: 2px solid #7BBAD0;
+    display: inline-block;
+    color: #7BBAD0;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 20px;
+}
