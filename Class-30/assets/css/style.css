@@ -1,0 +1,111 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #303030;
+}
+
+body {
+    color: #7C7C7C;
+    background-color: #EFEFF2;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.text-area {
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 0 70px;
+}
+
+.text-area h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+a.boxed-btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: #454BED;
+    padding: 10px 40px;
+    border-radius: 55px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text-area .boxed-btn {
+    margin-top: 30px;
+}
+
+.shadow-gallery {
+    position: relative;
+}
+
+.shadow-gallery img:nth-child(2),
+.shadow-gallery img:nth-child(3) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.shadow-gallery img {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    max-height: 500px;
+    box-shadow: 0 0 50px #bebec1;
+}
+
+.shadow-gallery img:nth-child(2) {
+    z-index: 2;
+}
+
+.shadow-gallery img:nth-child(3) {
+    z-index: 3;
+    width: 70%;
+    right: auto;
+    left: -50px;
+    bottom: -80px;
+}
+
+.shadow-gallery img:nth-child(1) {
+    top: -50px;
+}
