@@ -1,0 +1,153 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+.single-slide-item {
+    background-image: url(../img/bg-1.jpeg)
+
+}
+
+.single-slide-item {
+    position: relative;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    margin-bottom: 200px;
+}
+
+.slider-text-area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.slider-text {
+    background: #1C83C8;
+    color: #fff;
+    padding: 70px 150px 70px 0px;
+    font-size: 20px;
+    line-height: 1.8;
+    position: relative;
+}
+
+.slider-text h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+a.boxed-btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.slider-text:before {
+    position: absolute;
+    content: "";
+    background: #1C83C8;
+    top: 0;
+    height: 100%;
+    width: 1000%;
+    left: -1000%;
+}
+
+.slider-text:after {
+    position: absolute;
+    content: "";
+    top: 50px;
+    right: -25px;
+    transform: rotate(90deg);
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #1C83C8;
+}
+
+.rotate-box {
+    position: absolute;
+    top: 50px;
+    right: -25px;
+    transform: rotate(90deg);
+    opacity: 0.5;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #1C83C8;
+}
+
+.slider-text-2 {
+    color: #fff;
+    padding: 70px 150px 70px 0px;
+    font-size: 20px;
+    line-height: 1.8;
+    position: relative;
+    z-index: 2;
+}
+
+.slider-text-2:before {
+    position: absolute;
+    content: "";
+    background-color: #1C83C8;
+    top: 0;
+    height: 100%;
+    width: 1000%;
+    left: -1000%;
+    opacity: .5;
+}
+
+.slider-text-2:after {
+    position: absolute;
+    content: "";
+    background-color: #1C83C8;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
