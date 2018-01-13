@@ -1,0 +1,133 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+.full-width-bg-area {
+    background-image: url(../img/full-bg.jpeg)
+}
+
+.full-width-bg-area {
+    margin: 70px 0;
+}
+
+.margin-minus {
+    margin: -70px 0;
+    padding: 120px 70px;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+.dark-bg {
+    background: #2B2E41;
+    color: #fff;
+}
+
+a.service-btn {
+    display: inline-block;
+    border: 2px solid #CDA972;
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.content-box .service-btn {
+    margin-top: 70px;
+}
+
+h2.user-profile {
+    position: relative;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+    padding-left: 40px;
+}
+
+h2.user-profile span {
+    font-size: 60%;
+    font-weight: 400;
+    opacity: .4;
+}
+
+h2.user-profile:before {
+    position: absolute;
+    width: 30px;
+    background: #fff;
+    height: 2px;
+    content: "";
+    left: 0;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.content-box {
+    position: relative;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.content-box:before {
+    position: absolute;
+    content: "";
+    left: -45px;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.content-box:after {
+    position: absolute;
+    content: "";
+    right: -50px;
+    bottom: 135px;
+    width: 50px;
+    height: 50px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+h2 {}
+
+.content-box h2 {
+    margin-bottom: 20px;
+}
