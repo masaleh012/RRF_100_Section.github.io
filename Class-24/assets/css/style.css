@@ -1,0 +1,119 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+.main-menu.text-uppercase ul {
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu.text-uppercase ul li {
+    display: inline-block;
+}
+
+.main-menu.text-uppercase ul li a {
+    display: block;
+    padding: 30px;
+    padding-right: 0;
+    color: #fff;
+    padding-left: 45px;
+}
+.main-menu.text-uppercase ul li a:hover{
+    color: #e3aa34;
+}
+.logo img {
+    height: 80px;
+    width: 80px;
+}
+
+.single-slide {
+    background: #1E2B31;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.slide-text {
+    padding-bottom: 150px;
+    padding-top: 190px;
+}
+
+.slide-text h2 {
+    color: #e3aa34;
+    font-size: 45px;
+    line-height: 56px;
+    font-weight: 300;
+}
+
+.slider-img {
+    position: absolute;
+    bottom: 0;
+    max-height: 550px;
+    right: 15px;
+}
+
+.single-slide .row {
+    position: relative;
+}
+
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 9;
+}
+
+a.read-more-btn {
+    margin-top: 30px;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #e3aa34;
+    border-radius: 10px;
+}
+
+a.read-more-btn i.fa {
+    padding-left: 7px;
+}
