@@ -1,0 +1,155 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+body {
+    color: #565;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title.text-capitalize {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-border span {
+    background: #6AAF08;
+    width: 45px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.section-border span.black {
+    background: #333;
+    margin: 0 7px;
+    width: 30px;
+}
+
+.section-content {
+    margin-bottom: 40px;
+}
+
+.featured-img {
+    position: relative;
+    background: #ddd;
+    height: 120px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+.feature-bg-1 {
+    background-image: url(../img/feature-img-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.feature-bg-2 {
+    background-image: url(../img/feature-img-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.feature-bg-3 {
+    background-image: url(../img/feature-img-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.featured-img:after {
+    position: absolute;
+    background: #6AAF08;
+    right: -5px;
+    top: 5px;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.section-content h3 {
+    border-bottom: 2px dashed #6AAF08;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 10px;
+}
+
+.homepage-img {
+    height: 420px;
+    width: 100%;
+    background: #ddd;
+    margin-left: 30px;
+    position: relative;
+    border: 1px solid #fff;
+    background-image: url(../img/feature-img-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage-img:after {
+    position: absolute;
+    background: #333;
+    height: 100%;
+    width: 100%;
+    content: "";
+    left: 0;
+    top: 0;
+    opacity: .5;
+}
+
+.homepage-img:before {
+    position: absolute;
+    background: #6AAF08;
+    background-image: url(../img/arabesque.png);
+    height: 97%;
+    width: 97%;
+    content: "";
+    left: -10px;
+    top: 22px;
+    z-index: -1;
+}
