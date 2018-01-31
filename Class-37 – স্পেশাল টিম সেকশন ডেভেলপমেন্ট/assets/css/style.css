@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Rammetto+One&subset=latin-ext');
+
+/*
+font-family: 'Rammetto One', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.team-bg {
+    background-image: url(../img/team-1.jpg);
+}
+
+.team-bg-2 {
+    background-image: url(../img/team-2.jpg);
+}
+
+.team-bg-3 {
+    background-image: url(../img/team-3.jpg);
+}
+
+h2.section-title {
+    position: relative;
+    font-size: 45px;
+    text-align: right;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    margin-top: 131px;
+    width: 300px;
+    margin-left: -65px;
+    letter-spacing: 2px;
+}
+
+h2.section-title:before {
+    position: absolute;
+    content: "";
+    width: 35%;
+    background: #333;
+    right: 4px;
+    height: 1px;
+    top: -55px;
+}
+
+.team-bg {
+    height: 300px;
+    background-size: cover;
+    background-position: center top;
+    margin-bottom: 50px;
+}
+
+.bordered-content {
+    border: 1px solid #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.bordered-content h3 {
+    font-size: 20px;
+    background: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.team-title {
+    margin-top: -10px;
+}
+
+.col-md-4:nth-child(2) .single-team-member {
+    margin-top: 100px;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
