@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Mr De Haviland', cursive;
+*/
+
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+
+a:hover {
+    text-decoration: none
+}
+
+
+.hero-area-logo h3 {
+    font-family: 'Mr De Haviland', cursive;
+}
+
+.welcome-hero-area {
+    background-image: url(../img/section-bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.welcome-hero-area {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.header-area {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 15px 0;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-bottom: 5px;
+}
+
+.logo h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.logo a:after {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    bottom: 0;
+    content: "";
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.mainmenu li a {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+}
+
+.mainmenu li a:after {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    content: "";
+}
+
+.mainmenu {
+    margin-top: 8px;
+}
+
+
+.welcome-hero-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #333;
+    z-index: -1;
+    opacity: .3;
+}
+
+.hero-area-table {
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+a.scroll-top-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    color: #fff;
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    margin-left: -20px;
+    opacity: .8;
+}
+
+.hero-area-logo h3 {
+    font-size: 100px;
+    color: #C29B5F;
+    line-height: 50px;
+}
+
+.hero-area-logo h4 {
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.border-area {
+    overflow: hidden;
+    max-width: 335px;
+    margin: 0 auto;
+}
+
+.border-area i.fa {
+    float: left;
+    color: #C39C5A;
+    margin: 0 15px;
+    font-size: 9px;
+}
+
+.border-area-left-border,
+.border-area-right-border {
+    float: left;
+    width: 40%;
+    background: #fff;
+    height: 2px;
+    margin-top: 4px;
+    position: relative;
+}
+
+.hero-area-logo {
+    color: #fff;
+}
+
+.hero-area-logo p {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 5px
+}
+
+.border-area-right-border:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-right: 6px solid #fff;
+    border-bottom: 3px solid transparent;
+    right: -4px;
+    top: -2px;
+    content: "";
+
+}
+
+.border-area-left-border {
+    margin-left: 10px;
+}
+
+.border-area-left-border:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-left: 6px solid #fff;
+    border-bottom: 3px solid transparent;
+    left: -4px;
+    top: -2px;
+    content: "";
+
+}
