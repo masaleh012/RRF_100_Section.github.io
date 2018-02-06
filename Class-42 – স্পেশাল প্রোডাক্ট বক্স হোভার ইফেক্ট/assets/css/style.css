@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #CCCCCC;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.img-wrap {
+    display: table;
+    background: #F0F0F0;
+    width: 100%;
+    height: 320px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-wrap-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.img-wrap-tablecell h4 {
+    font-family: font-family: 'Roboto', sans-serif;
+}
+
+.single-product-box h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p.price-box {
+    font-size: 35px;
+    color: #FB4E4A;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.single-product-box {
+    text-align: center;
+    margin-top: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+.single-product-box:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background: url(../img/map.png) no-repeat scroll center top #3B3B3B;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: .3s;
+    opacity: 0;
+}
+
+.product-hover-links {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    text-align: left;
+    padding: 0 20px;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product-hover-links a {
+    display: inline-block;
+    color: #676767;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    width: 30px;
+    line-height: 45px;
+}
+
+.product-hover-links a.bordered-link {
+    border: 2px solid #D34E50;
+    width: 50px;
+}
+.single-product-box:hover:after {
+    top: -10%;
+    height:  120%;
+    opacity: 1;
+}
+
+.single-product-box:hover .img-wrap {
+    background: none;
+}
+
+.single-product-box:hover .product-hover-links {
+    visibility:  visible;
+    opacity: 1;
+}
+.single-product-box:hover .bordered-link {
+    color: #FDFDFD;
+}
+.single-product-box:hover.single-product-box h4 {
+color:#BDBDBD;
+}
