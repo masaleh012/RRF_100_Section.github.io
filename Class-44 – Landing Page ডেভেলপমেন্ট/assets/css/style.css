@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+/*font-family: 'Lato', sans-serif;*/
+
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+.welcome-area {
+    background-image: url(../img/landing-bg.jpeg);
+    background-size: cover;
+    background-position: center top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.welcome-area {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #fff;
+    z-index: -1;
+    opacity: .8;
+}
+
+.logo img {
+    max-width: 45px;
+    padding-right: 5px;
+}
+
+.logo a {
+    color: #DE2924;
+}
+
+.logo h1 {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.mainmenu {}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu li a {
+    display: block;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #333;
+    font-weight: 700;
+}
+
+.mainmenu li.bordered a {
+    border: 1px solid;
+    color: #DE2924;
+}
+
+.logo {
+    margin-top: 0px;
+}
+
+.header-area {
+    padding: 15px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.copyright-area {
+    background: #42413E;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 10px 0;
+    font-size: 85%;
+    z-index: 9;
+}
+
+.copyright-area,
+.copyright-area a {
+    color: #999;
+}
+
+.copyright-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.copyright-area li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.copyright-area li a {
+    display: block;
+}
+
+.hero-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slide-text {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.slide-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.email-subcribe-form {
+    margin-top: 50px;
+    font-size: 14px;
+    max-width: 500px;
+}
+
+.email-subcribe-form input[type=email] {
+    border: none;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    width: 58%;
+    margin-right: 2%;
+    font-weight: 400;
+}
+
+.email-subcribe-form button[type=submit] {
+    border: none;
+    background: #D82623;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    font-size: 20px;
+    padding-right: 10px;
+}
