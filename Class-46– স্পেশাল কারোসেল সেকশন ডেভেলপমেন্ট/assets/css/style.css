@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Rammetto+One&subset=latin-ext');
+
+/*
+font-family: 'Rammetto One', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 900;
+    color: #fff;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #E0E0E0;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-padding.dark-bg {
+    background: #343434;
+}
+
+.trailer-text {
+    font-size: 16px;
+    line-height: 1.7;
+    padding-top: 50px;
+}
+
+.trailer-text h1 {
+    font-size: 33px;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.trailer-text h1:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    width: 15px;
+    background: #FF6464;
+}
+
+a.bordered-btn {
+    border: 3px solid #FF6464;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 30px;
+    width: 170px;
+    font-size: 13px;
+}
+
+.bordered-btn i.fa {
+    float: right;
+    padding-top: 4px;
+}
+
+.traile-info {
+    position: relative;
+    text-align: right;
+}
+
+.trailer-colored-pricing-tag {
+    position: absolute;
+    top: 0;
+    right: 190px;
+    background: #FF6464;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    height: 255px;
+    padding-top: 60px;
+}
+
+.trailer-colored-pricing-tag p {
+    opacity: .5;
+}
+
+.trailer-colored-pricing-tag p.trailer-price {
+    opacity: 1;
+    font-size: 30px;
+}
+
+.trailer-shopping-cart {
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #333;
+    line-height: 50px;
+    font-size: 15px;
+    box-shadow: 0 0 15px #666;
+}
+
+.traile-info img {
+    position: relative;
+    padding-top: 130px;
+}
+
+div.owl-carousel .owl-item .trailer-info img {
+    width: auto;
+    display: inline-block;
+}
+
+.featured-carousel-box .owl-dots div:nth-child(1) span:before {
+    content: "01";
+}
+
+.featured-carousel-box .owl-dots div:nth-child(2) span:before {
+    content: "02";
+}
+
+.featured-carousel-box .owl-dots div:nth-child(3) span:before {
+    content: "03";
+}
+
+.featured-carousel-box .owl-dots div:nth-child(4) span:before {
+    content: "04";
+}
+
+.featured-carousel-box .owl-dots div:nth-child(5) span:before {
+    content: "05";
+}
+
+.featured-carousel-box .owl-dots div {
+    border-left: 2px solid #444;
+    padding: 20px 15px;
+}
+
+.featured-carousel-box .owl-dots div.active {
+    border-left: 2px solid #FF5958;
+    color: #fff;
+}
+
+.featured-carousel-box .owl-dots {
+    position: absolute;
+    right: -100px;
+    top: 30%;
+}
