@@ -1,0 +1,121 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+
+.testimonial-bg {
+    background-image: url(../img/testimonial-bg.jpg);
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.testimonial-bg {
+    background-color: #ddd;
+    color: #fff;
+    background-size: cover;
+}
+
+.user-avatar img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.testimonial-content {
+    font-size: 18px;
+    line-height: 28px;
+    font-style: italic;
+}
+
+.single-testimonial-item {
+    text-align: center;
+}
+
+.single-testimonial-item h4 {
+    opacity: .9;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.single-testimonial-item h4 span {
+    display: block;
+    font-size: 80%;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.testimonial-carousel .owl-dots div {
+    display: inline-block;
+    background: #2D4350;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.testimonial-carousel .owl-dots div.active {
+    background: #fff;
+}
+
+.testimonial-carousel .owl-dots {
+    text-align: center;
+}
+
+.testimonial-carousel:before,
+.testimonial-carousel:after {
+    position: absolute;
+    font-family: fontawesome;
+    font-size: 30px;
+}
+
+.testimonial-carousel:before {
+    content: "\f10d";
+    left: -50px;
+    top: 150px;
+}
+
+.testimonial-carousel:after {
+    content: "\f10e";
+    right: -50px;
+    bottom: 120px;
+}
