@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i');
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    color: #333;
+	font-weight: 700;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #737373;
+	font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.pricing-tables {
+    overflow: hidden;
+    padding: 30px 20px;
+}
+
+.single-pricing-table {
+    float: left;
+    width: 33.33333%;
+    box-shadow: 0 0 10px #f3f3f3;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+	margin-top: 30px;
+}
+
+.pricing-heading {
+    background: #F9FAF9;
+    color: #898888;
+    font-size: 16px;
+    padding: 40px;
+}
+
+.pricing-heading h3 {
+    color: #888888;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.pricing-heading h2,
+h3 {
+    text-transform: capitalize;
+}
+
+.pricing-heading h2 {
+    font-size: 50px;
+}
+
+.pricing-content {
+    padding: 60px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.pricing-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 35px;
+}
+
+a.pricing-btn {
+    display: inline-block;
+    color: #FC153C;
+    border: 2px solid #FC153C;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-top: 30px;
+	font-weight: 600;
+}
+
+.active a.pricing-btn {
+	background: #FC153C;
+	color: #fff;
+}
+
+.active .pricing-heading {
+    background: #FC153C;
+    color: #fff;
+    position: relative;
+	overflow: hidden;
+	margin-top: 0;
+}
+
+.active .pricing-heading h2,
+.active .pricing-heading h3 {
+    color: #fff;
+}
+
+.single-pricing-table.active {
+    position: relative;
+    z-index: 2;
+    margin: 0 -.5%;
+    width: 34.3333%;
+}
+
+.active .pricing-heading:after {
+  position: absolute;
+  content: "Featured";
+  color: #FC153C;
+  background: #fff;
+  right: -40px;
+  top: 25px;
+  transform: rotate(45deg);
+  padding: 5px 50px;
+  font-size: 13px;
+}
+.active .pricing-content {
+  padding: 73px 60px;
+}
+
