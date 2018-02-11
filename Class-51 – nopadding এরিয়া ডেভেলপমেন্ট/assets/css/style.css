@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Rammetto+One&subset=latin-ext');
+
+/*
+font-family: 'Rammetto One', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.single-boxed-item {
+    background-image: url(../img/bg-1.jpg);
+}
+
+.boxed-bg2 {
+    background-image: url(../img/bg-2.jpeg);
+}
+
+.boxed-bg3 {
+    background-image: url(../img/bg-3.jpeg);
+}
+
+.boxed-bg4 {
+    background-image: url(../img/bg-4.jpeg);
+}
+
+.boxed-bg5 {
+    background-image: url(../img/bg-5.jpeg);
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.sectiopn-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.sectiopn-title h2 {
+    text-transform: capitalize;
+}
+
+.row.no-padding .col-md-4 {
+    padding: 0;
+}
+
+.row.no-padding {
+    margin: 0;
+}
+
+.single-boxed-item {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.single-boxed-item.half-size {
+    height: 300px;
+}
+
+.boxed-item-hover:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #333;
+    z-index: -1;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: .75;
+}
+
+.boxed-item-hover {
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.boxed-item-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.boxed-item-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+a.large-img {
+    color: #429D02;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.single-boxed-item:hover .boxed-item-hover {
+    visibility: visible;
+    opacity: 1;
+}
