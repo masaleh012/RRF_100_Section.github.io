@@ -283,7 +283,7 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.video-overlay p.video-dec {
+.video-overlay p.video-desc {
     opacity: 1;
     font-size: 14px;
     text-transform: uppercase;
@@ -304,12 +304,12 @@ a:hover {
     transform: scale(1);
 }
 
-.video-dec span {
+.video-desc span {
     display: inline-block;
     position: relative;
 }
 
-.video-dec span:before {
+.video-desc span:before {
     position: absolute;
     left: -33px;
     background: #fff;
@@ -319,7 +319,7 @@ a:hover {
     top: 10px;
 }
 
-.video-dec span:after {
+.video-desc span:after {
     position: absolute;
     right: -33px;
     background: #fff;
