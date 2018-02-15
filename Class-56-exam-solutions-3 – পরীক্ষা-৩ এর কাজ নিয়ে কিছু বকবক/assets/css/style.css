@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Rammetto+One&subset=latin-ext');
+
+/*
+font-family: 'Rammetto One', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #333;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+body.theme-2 {
+    background: rgb(110, 140, 161);
+    background: -moz-linear-gradient(left, rgba(110, 140, 161, 1) 0%, rgba(107, 129, 163, 1) 29%, rgba(148, 117, 133, 1) 64%, rgba(171, 129, 117, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(110, 140, 161, 1) 0%, rgba(107, 129, 163, 1) 29%, rgba(148, 117, 133, 1) 64%, rgba(171, 129, 117, 1) 100%);
+    background: linear-gradient(to right, rgba(110, 140, 161, 1) 0%, rgba(107, 129, 163, 1) 29%, rgba(148, 117, 133, 1) 64%, rgba(171, 129, 117, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e8ca1', endColorstr='#ab8175', GradientType=1);
+}
+
+body.theme-1 {
+    background-image: url(../img/section-bg.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+html,
+body.theme-1 {
+    height: 100%;
+}
+
+.site-wrap {
+    height: 100%;
+}
+
+.site-wrap-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.site-wrap-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+}
+
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 60px 80px;
+    width: 100%;
+}
+
+.footer-area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    border-top: 1px solid #E3DCE0;
+}
+
+.logo a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+}
+
+.mainmenu {
+    font-size: 19px;
+    text-transform: capitalize;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.mainmenu a {
+    color: #826762;
+}
+
+.hero-text {
+    width: 50%;
+    padding-left: 80px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #7C5D79;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.hero-text a {
+    color: #7C5D79;
+    font-weight: 700;
+}
+
+p.copyright-text {
+    padding-left: 65px;
+    color: #7C5D79;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.social-links {
+    padding-right: 65px;
+}
+
+.social-links a {
+    font-size: 35px;
+    color: #7C5D79;
+    padding-left: 20px;
+}
+
+.social-links a:hover {
+    color: #333;
+}
+
+
+/*theme-2*/
+
+.theme-2 .site-wrap {
+    background-image: url(../img/section-bg.png);
+}
+
+.theme-2 .header-area {
+    position: relative;
+}
+
+.theme-2 .footer-area {
+    position: relative;
+    margin-top: 50px;
+}
+
+.theme-2 .site-wrap {
+    background-size: cover;
+    background-position: center;
+    background-color: #F799EA;
+    margin: 5%;
+}
